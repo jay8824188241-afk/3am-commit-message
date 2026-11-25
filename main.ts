@@ -1,3 +1,4 @@
+// Writes entry.txt verbatim to /output/entry.txt (single line, 84 chars).
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
